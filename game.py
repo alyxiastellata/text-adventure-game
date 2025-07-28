@@ -7,6 +7,7 @@ inventory = {
 
 def game_over():
     print("GAME OVER")
+    exit()
     
 
 # cottage parts (repeat for the prompt whenever items r picked)
@@ -125,6 +126,7 @@ def enter_maze():
         print("After hours of twists and dead ends, you see sunlight through the hedges...")
         print("A familiar path unfolds ahead of you, and you follow it back to your local village.")
         print("Congratulations! You escaped the maze and lived to tell the tale.")
+        exit()
     
     else:
         print("You wander in circles. The hedges seem to shift and trap you.")
@@ -159,6 +161,7 @@ def rabbit_hole():
       print("You lay down on top of the leaves, and quickly drift off to sleep. When you wake up, you see that your surroundings have changed again.")
       print("The garden has been replaced by a new path. You follow it and soon recognize it as the path back to your local village.")
       print("You brush off the events of the day and head home.")
+      exit()
 
 
     elif action == "2":
@@ -176,7 +179,7 @@ def rabbit_hole():
       print("When you walk through the exit gate of the garden, you realize that you are familiar with this area of the forest.")
       print("Confused as to why you had never discovered the garden before, you turn around. The gate has disappeared.")
       print("How mysterious. You walk home to get a good night's sleep.")
-     
+      exit()
 
 # field/main area
 def open_field():
